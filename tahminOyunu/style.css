@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  transition: all 1s ease-in-out;
+}
+button {
+  padding: 10px;
+  width: 160px;
+  border: none;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  background-color: rgb(147, 193, 193);
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+div {
+  text-align: center;
+  margin-top: 20%;
+  width: 30%;
+  height: 320px;
+  border-radius: 0px;
+  background: #c25173;
+  box-shadow: 50px 50px 100px #4e202e, -50px -50px 100px #ff82b8;
+  padding-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guess {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  padding: 15px;
+}
+.guess-info {
+  font-size: 20px;
+}
+.game-start-h1 {
+  margin-bottom: 50px;
+}
+.retry,
+.finish {
+  padding: 10px;
+  width: 160px;
+}
+
+@media screen and (max-width: 992px) {
+  div {
+    width: 70%;
+  }
+  button {
+    padding: 10px;
+    width: 130px;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    background-color: rgb(147, 193, 193);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+  .game-start-div {
+    padding-bottom: 300px;
+  }
+  .retry {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div {
+    text-align: center;
+    margin-top: 20%;
+    width: 80%;
+    height: 200px;
+    border-radius: 0px;
+    background: #c25173;
+    box-shadow: 50px 50px 100px #4e202e, -50px -50px 100px #ff82b8;
+    padding-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .game-finish-div {
+    padding-top: 20px;
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="start-div" id="start-div" style="display: block">
+      <button class="start" id="start">Oyuna Başla</button>
+    </div>
+
+    <div class="game-start-div" id="game-start-div" style="display: none">
+      <h3 class="game-start-h1" id="game-start-h1">
+        200 ile 300 araında olan sayıyı tahmin ediniz.
+      </h3>
+      <input type="number" class="guess" id="guess" max="" min="" />
+      <p class="guess-info" id="guess-info">Yukarı</p>
+    </div>
+
+    <div class="game-finish-div" id="game-finish-div" style="display: none">
+      <h3 class="game-start-h1" id="game-finish-h1">Doğru tahmin. Sayı 250.</h3>
+      <button class="retry" id="retry">Yeniden Oyna</button>
+      <button class="finish" id="finish">Ana Ekrana Dön</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
